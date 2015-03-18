@@ -1,0 +1,9 @@
+body {
+	background:rgb(40,40,40);
+	margin:0;
+}
+
+canvas{
+	height: 100%;
+	width:100%;
+}
