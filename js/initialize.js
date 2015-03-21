@@ -106,6 +106,7 @@ function animate() {
 }
 
 function render() {
+	//Scene Renderer
 	renderer.render( scene, camera );
 }
 
