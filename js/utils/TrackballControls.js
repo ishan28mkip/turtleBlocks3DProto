@@ -591,8 +591,8 @@ THREE.TrackballControls = function ( object, domElement ) {
 	this.domElement.addEventListener( 'touchend', touchend, false );
 	this.domElement.addEventListener( 'touchmove', touchmove, false );
 
-	window.addEventListener( 'keydown', keydown, false );
-	window.addEventListener( 'keyup', keyup, false );
+	//window.addEventListener( 'keydown', keydown, false );
+	//window.addEventListener( 'keyup', keyup, false );
 
 	this.handleResize();
 
