@@ -8,11 +8,11 @@ How to run
 
 ### Modes
 
-On running the prototype there is a prompt for the mode of execution. 0 : CUI mode, 1 : Manual Mode. In the CUI mode the code can be written text area which will be excuted. While in the Manual mode keys control the cursor, its rotation and block placement.
+On running the prototype there is a prompt for the mode of execution. `0 : CUI mode`, `1 : Manual Mode`. In the CUI mode the code can be written text area which will be excuted. While in the Manual mode keys control the cursor, its rotation and block placement.
 
 ### CUI mode
 
-Chose 0 in the initial prompt.
+Chose `0` in the initial prompt.
 
 List of Variables that can be modified
 ---------------------------------------
@@ -57,7 +57,7 @@ Problems
 
 ### Manual Mode
 
-Chose 1 in the initial prompt.
+Chose `1` in the initial prompt.
 
 List of commands that are available
 ------------------------------------
