@@ -16,21 +16,21 @@ Chose 0 in the initial prompt.
 
 List of Variables that can be modified
 ---------------------------------------
-1. 'positionStepX' : Changes the step value for the cursor movement along X axis '(Pixels)'.
-1. 'positionStepY' : Changes the step value for the cursor movement along Y axis '(Pixels)'.
-1. 'positionStepZ' : Changes the step value for the cursor movement along Z axis '(Pixels)'.
-1. 'rotationStepRoll' : Changes the step rotation value of the roll. '(Degrees)' 
-1. 'rotationStepPitch' : Changes the step rotation value of the pitch. '(Degrees)' 
-1. 'rotationStepYaw' : Changes the step rotation value of the yaw. '(Degrees)' 
+1. `positionStepX` : Changes the step value for the cursor movement along X axis `(Pixels)`.
+1. `positionStepY` : Changes the step value for the cursor movement along Y axis `(Pixels)`.
+1. `positionStepZ` : Changes the step value for the cursor movement along Z axis `(Pixels)`.
+1. `rotationStepRoll` : Changes the step rotation value of the roll. `(Degrees)` 
+1. `rotationStepPitch` : Changes the step rotation value of the pitch. `(Degrees)` 
+1. `rotationStepYaw` : Changes the step rotation value of the yaw. `(Degrees)` 
 
 
 List of Supported Commands
 --------------------------
 
-1. `shiftCursorPositionX(direction)` ; Move `positionStepX` distance about its x axis direction. direction '1' would be positive x axis, '-1' would be negative x axis. Similar commands exist for Y & Z axis.
-1. 'setRoll(degree)' ; Specify the value of roll in 'degrees'. Similar commands exist for setting Pitch, Yaw.
-1. 'rotateRoll(degree)' ; Roll the cursor/object 'rotationStepRoll' degree. Similar commands exist for incrementing or decrementing the Pitch and Yaw.
-1. 'CreateCurrentObjectAtCursor' ; inserts the current block (material & geometry) selected at the centre and in the orientation of the cursor.
+1. `shiftCursorPositionX(direction)` ; Move `positionStepX` distance about its x axis direction. direction `1` would be positive x axis, `-1` would be negative x axis. Similar commands exist for Y & Z axis.
+1. `setRoll(degree)` ; Specify the value of roll in `degrees`. Similar commands exist for setting Pitch, Yaw.
+1. `rotateRoll(degree)` ; Roll the cursor/object `rotationStepRoll` degree. Similar commands exist for incrementing or decrementing the Pitch and Yaw.
+1. `CreateCurrentObjectAtCursor` ; inserts the current block (material & geometry) selected at the centre and in the orientation of the cursor.
 
 Examples
 --------
@@ -61,9 +61,9 @@ Chose 1 in the initial prompt.
 
 List of commands that are available
 ------------------------------------
-1. 'Arrow keys' to move in the X-Y plane.
-1. ']' key to move in the positive z direction & '[' to move in the negative z direction.
-1. 'r' to set the roll.
-1. 'p' to set the pitch.
-1. 'y' to set the yaw.
-1. 'i' to insert block at the current position.
+1. `Arrow keys` to move in the X-Y plane.
+1. `]` key to move in the positive z direction & `[` to move in the negative z direction.
+1. `r` to set the roll.
+1. `p` to set the pitch.
+1. `y` to set the yaw.
+1. `i` to insert block at the current position.
