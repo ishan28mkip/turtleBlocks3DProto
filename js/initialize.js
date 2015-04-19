@@ -361,7 +361,6 @@ function newCursorPositionY(y){
 function newCursorPositionZ(z){
 	currentCursorPosition.setZ(z);
 	axesHelper.position.setZ(z);
-	cursorRotationAxis.addVectors(initialCursorPosition,currentCursorPosition);
 	render();
 }
 
