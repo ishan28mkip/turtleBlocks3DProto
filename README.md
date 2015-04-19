@@ -1,7 +1,7 @@
 Turtle Art 3D Javascript Prototype
 ==================================
 A 3D, javascript/WebGL based implementation of the turtle Blocks Activity.
-Link to the Preview : http://ishan28mkip.github.io/turtle3DOld
+Link to the Preview : http://ishan28mkip.github.io/turtleBlocks3D
 
 How to run
 ----------
