@@ -1,4 +1,4 @@
-###New Version with GUI support also uploaded
+###New Version with GUI support can be viewed here
 Link here: https://github.com/ishan28mkip/turtleBlocks3DGUI
 
 Preview here: http://ishan28mkip.github.io/turtleBlocks3DGUI/
